@@ -1,0 +1,114 @@
+.pdf-section {
+  padding: 30px;
+  background-color: #00bbff;
+  text-align: center;
+}
+
+.pdf-section h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.pdf-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pdf-item {
+  height: auto;
+  width: 45%;
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(32, 174, 3);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.pdf-item:hover {
+  transform: translateY(-5px);
+}
+
+.pdf-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #16601f;
+}
+
+.pdf-details {
+  padding: 25px;
+}
+
+.pdf-details h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pdf-details p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  border-radius: 30em;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 1;
+  background: #ff135a;
+  border: 3px solid #fff;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  transition: 0.6s ease-in;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background: #fff;
+  color: #ff135a;
+}
+
+.button .two {
+  display: none;
+}
+
+.button::before {
+  content: "";
+  width: 0;
+  height: 50px;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.button:hover::before {
+  width: 140px;
+  transition: 3s linear;
+}
+
+.button:hover .one {
+  display: none;
+}
+
+.button:hover .two {
+  display: inline;
+}

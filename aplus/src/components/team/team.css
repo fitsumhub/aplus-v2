@@ -1,0 +1,83 @@
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team .items {
+  position: relative;
+  width: 250px; /* Adjust width as per your design */
+  margin: 20px;
+  overflow: hidden; /* Ensures the overlay doesn't overflow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team .img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team img {
+  width: 100%;
+  height: auto; /* Ensures image aspect ratio is maintained */
+  display: block; /* Removes extra space below inline images */
+  transition: transform 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.team .items:hover .overlay {
+  transform: translateY(0); /* Slide overlay up on hover */
+}
+
+.overlay i {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%; /* Makes icons circular */
+  transition: background-color 0.3s ease;
+}
+
+.team .items:hover .overlay i:hover {
+  background-color: #1eb237; /* Different color on icon hover */
+}
+
+.team .details {
+  padding: 20px;
+  text-align: center;
+}
+
+.team .details h2 {
+  font-size: 18px; /* Adjusted font size */
+  font-weight: bold; /* Corrected font-weight property */
+  margin-bottom: 10px; /* Improved spacing */
+}
+
+.team .details p {
+  font-size: 14px; /* Adjusted font size */
+  color: #ccc; /* Subdued text color */
+  margin: 0; /* Ensures no default margin */
+}
+
+.team .items:hover {
+  background-color: #011311; /* Darkened background color on hover */
+  color: #fff; /* Light text color on hover */
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+

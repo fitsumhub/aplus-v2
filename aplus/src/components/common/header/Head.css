@@ -1,0 +1,85 @@
+.head {
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  color:blueviolet;
+  --border-radius: 15px; /* Border radius for rounded corners */
+  --border-width: 4px; /* Width of the border */
+  appearance: none; /* Removes default browser styles */
+  padding: 1em 2em; /* Padding around the text */
+  border: 100; /* Removes default border */
+  font-family: "Roboto", Arial, "Segoe UI", sans-serif; /* Font family options */
+  font-size: 500px; /* Adjust font size as needed (likely too large) */
+  font-weight: 500; /* Font weight */
+  color: #ff0000; /* Text color */
+  z-index: 20; /* Stacking order (ensures the logo is above other elements) */
+}
+
+
+.logo span {
+  font-size: 300%;
+  color: #000000;
+  position: 78PX;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn.facebook {
+  background: linear-gradient(to right, #3b5998, #4c66a4, #5d73af);
+  box-shadow: 0 4px 10px rgba(59, 89, 152, 0.5);
+}
+
+.btn.facebook:hover {
+  background: linear-gradient(to right, #3b5998, #354f8f, #2e4479);
+}
+
+.btn.youtube {
+  background: linear-gradient(to right, #ff0000, #ff3333, #ff6666);
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+}
+
+.btn.youtube:hover {
+  background: linear-gradient(to right, #cc0000, #b30000, #990000);
+}
+
+.btn.twitter {
+  background: linear-gradient(to right, #1da1f2, #1a91da, #167bba);
+  box-shadow: 0 4px 10px rgba(29, 161, 242, 0.5);
+}
+
+.btn.twitter:hover {
+  background: linear-gradient(to right, #1a91da, #167bba, #1266a0);
+}
+
+.btn.instagram {
+  background: linear-gradient(to right, #e4405f, #d7394b, #c93037);
+  box-shadow: 0 4px 10px rgba(228, 64, 95, 0.5);
+}
+
+.btn.instagram:hover {
+  background: linear-gradient(to right, #d7394b, #c93037, #b52823);
+}
+

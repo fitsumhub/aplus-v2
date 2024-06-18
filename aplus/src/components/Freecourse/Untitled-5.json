@@ -1,0 +1,10 @@
+{
+				"port": 3000,
+				"dbName": "1faf5105-0ed2-44d9-b0fc-9ac9bc3cfbcc",
+				"ip": "127.0.0.1",
+				"storageEngine": "ephemeralForTest",
+				"replSet": "null",
+				"dbPath": "C:\Users\POSTLA~1\AppData\Local\Temp\mongo-mem-23812Q9shBCfxF7M8",
+				"uri": "mongodb://127.0.0.1:49793/1faf5105-0ed2-44d9-b0fc-9ac9bc3cfbcc?",
+				"mongod_pid": 28636
+			}

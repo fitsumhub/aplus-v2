@@ -1,0 +1,103 @@
+.aboutHome {
+  height: fit-content;
+}
+
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutHome .right {
+  padding: 80px 50px; /* Adjust padding as needed */
+}
+
+.aboutHome .items {
+margin-top: 45%;
+}
+
+.aboutHome .item {
+  background-color: #ffd000;
+  margin-top: 30px;
+  padding: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item h2 {
+  font-size: 22px; /* Adjusted font size for better readability */
+  margin-bottom: 15px;
+}
+
+.aboutHome .item p {
+  color: #999999;
+  transition: color 0.5s ease; /* Ensure consistent transition */
+}
+
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.06);
+}
+
+.aboutHome .item:hover p {
+  color: #fff; /* Ensure text color change on hover */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+  .aboutHome .row {
+    width: 100%;
+  }
+}
+
+/* Styles for .awrapper */
+.awrapper {
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh; /* Adjust height as needed */
+  color: #fff;
+}
+
+.awrapper .box {
+  padding: 70px 0; /* Ensure symmetrical padding */
+}
+
+.awrapper img {
+  margin-right: 30px;
+}
+
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Media Query adjustment for .awrapper */
+@media screen and (max-width: 768px) {
+  .awrapper {
+    height: 50vh; /* Adjust height for smaller screens */
+  }
+}

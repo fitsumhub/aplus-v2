@@ -1,0 +1,35 @@
+/* hblog.css */
+
+.hblog {
+    /* Container styles */
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 2rem; /* Add some padding for spacing */
+    font-family: Arial, sans-serif; /* A clean sans-serif font for readability */
+  }
+  
+  .hblog-post {
+    /* Individual blog post styles */
+    margin-bottom: 2rem; /* Add space between posts */
+    border-bottom: 1px solid #ddd; /* Simple border to separate posts */
+    padding-bottom: 1rem; /* Add some padding within the post */
+  }
+  
+  .hblog-post .hblog-meta {
+    /* Meta information like type, date, and comments */
+    font-size: 0.8rem; /* Slightly smaller font for meta data */
+    color: #999; /* Muted color for less emphasis */
+    margin-bottom: 0.5rem; /* Add some space after meta information */
+  }
+  
+  .hblog-post .hblog-title {
+    /* Blog post title */
+    font-size: 1.2rem; /* Slightly larger font for title */
+    font-weight: bold; /* Make the title stand out */
+    margin-bottom: 0.5rem; /* Add some space after title */
+  }
+  
+  .hblog-post .hblog-desc {
+    /* Blog post description */
+  }
+  
